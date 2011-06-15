@@ -3,8 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-목차
-========================================
+개발자 지원 핸드북
+=======================================
 
 본 핸드북은 Pamela Fox가 구글에서 4년간 외부 개발자 지원 업무를 수행하면서
 경험한 것을 적은 가이드로서 오픈 API 제공 및 운영 업무를 하는 분들을 위해 
