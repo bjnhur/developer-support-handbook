@@ -54,7 +54,7 @@
 
 아래는 오픈 API와 관련해서 국내에서 열렸거나 진행 중인 행사 목록이다.
 
- * **대한민국 매쉬업경진대회** `http://mashupkorea.org <http://masupkorea.org>`_
+ * **대한민국 매쉬업경진대회** `http://mashupkorea.org <http://mashupkorea.org>`_
    nhn과 Daum이 공동 주최로 2007년 부터 매년 열리는 행사로서 오픈 API 진흥과 파생되는 다양한 
    매쉬업 사례를 발굴하기 위해 개최하고 있다.
  * **Daum DevDay** `http://dna.daum.net/devday <http://dna.daum.net/devday>`_
