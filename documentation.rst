@@ -40,7 +40,7 @@ API가 오픈소스(즉, 소스 코드를 읽을 수 있는 경우)라면, 이 �
 내용
 ===================
 
-본 문서는 API의 모든 부분을 아우르며, 버전별 제공 기능 및 제외 기능(deprecation)
+본 문서는 API의 모든 부분을 아우르며, 버전별 제공 및 제외 기능(deprecation)
 정보를 포함해야 한다.
 
 
@@ -109,17 +109,12 @@ API가 오픈소스(즉, 소스 코드를 읽을 수 있는 경우)라면, 이 �
 연결성
 --------
 
-레퍼런스내에 모든 API 객체는 유일한 URL 주소로 접근되어야 한다. 예를 들어,
-단일 페이지 레퍼런스에서는 ``#map.MapOptions.draggable``,
-  다중 페이지 레퍼런스에서는 ``map/MapOptions.html#draggable`` 와 같이 되야 한다.
- 이 기본적인 목적은 포럼에서 의사소통 할 때, 블로그, 기사, 문서의 나머지 부분에서
-직접 참조하기 위함이다.
+레퍼런스내에 모든 API 객체는 유일한 URL 주소로 접근되어야 한다. 예를 들어, 단일 페이지 레퍼런스에서는 ``#map.MapOptions.draggable``, 다중 페이지 레퍼런스에서는 ``map/MapOptions.html#draggable`` 과 같이 되야 한다. 이는 포럼에서 의사소통 할 때, 블로그, 기사, 문서의 나머지 부분에서 직접 참조하기 위함이다.
 
 추가적으로 연결성을 제공하려면, 그 레퍼런스가 개발자들에게 그 URL을 찾기 쉬운 방법을 
 제공할 필요가 있다. (HTML을 통해서 anchor 태그를 찾아야만 하지 않게 하기 위해서)
 예를 들어, JS Maps API 안에 API 객체 이름에 하이퍼링크를 거는 것으로 가능하다.
 또 다른 방법으로 각 API 객체 섹션에 다음으로 갈 수 있는 작은 링크를 제공하는 것이다.
-
 
 검색 가능성
 -----------
@@ -129,7 +124,7 @@ API가 오픈소스(즉, 소스 코드를 읽을 수 있는 경우)라면, 이 �
 만약 그렇지 않다면, 레퍼런스에 특화된 검색창을 제공해야 한다. 그것은 레퍼런스 
 페이지들 범위로 한정된 Google Custom Search Engine으로 구현할 수 있다.
 
-(역자주) `Daum 검색의 Site 옵션 <http://search.daum.net/search?w=dir&q=site:dna.daum.net+api>`_ 을 이용할 수도 있다.
+*(역자주) 국내에서는 `Daum 검색의 Site 옵션 <http://search.daum.net/search?w=dir&q=site:dna.daum.net+api>`_ 을 이용할 수도 있다.*
 
 다운로드
 --------
@@ -325,6 +320,9 @@ Google 샘플 코드는 실제(이론적이지 않은) API를 사용하는 것�
 다양한 샘플들을 나열하는 것 분 어떤 것이 개발자들에게 이득인지 신중히 고려 하고, 
 모든 경우에 여러분의 해결 방법은 검색 가능하고 링크가 달려 있어야 한다.
 
+*(역자주) Daum에서는 오픈 API 샘플 코드를 `구글 코드 <http://code.google.com/p/daumapis/>`_ 와 
+`Github <https://github.com/daumdna/apis>`_ 에 각각 제공하고 있다.
+
 .. _Maps API demo gallery: http://code.google.com/apis/maps/documentation/javascript/demogallery.html
 .. _Wave Samples Gallery: http://wave-samples-gallery.appspot.com/
 .. _Open Source: http://google-wave-resources.googlecode.com/svn/trunk/samples-gallery/
@@ -412,22 +410,19 @@ API를 테스트하고 디버그하기 쉽게 하고, 또한 API를 가르치고
 `Maps API Developer's Guide`_ 는 종합 안내서의 한 예이다.
 안내서에는 API 각 부분이 어떻게 동작하는지에 대해 설명한 페이지가 있다.
 그 스팩트럼의 반대쪽에, Flickr API는 그들의 HTTP API가 어떻게 작동하는지에 대한
-`few paragrphs`_ 만 제공하고, 다음에 여러분이 API 사용을 시작하도록 API explorer로 
-링크를 걸어 준다.
+`몇 가지 부분 <http://www.flickr.com/services/api/misc.overview.html>`_ 만 제공하고, 
+다음에 여러분이 API 사용을 시작하도록 API explorer로 링크를 걸어 준다.
 
 종합 안내서는 HTTP API 보다는 JavaScript API를 위해 더 필요할 것 같다. 
 HTTP API가 모든 실행에 대해서 전형적으로 똑같은 요청/응답 패턴인데 반하여, 
 JS API는 그것의 다른 부분이 사용되는 방법을 바꿀 수 있기 때문이다.
-(참고로 Flickr는 `user authentication`_ 상에 추가적인 문서를 제공하고, HTTP 요청만큼 
-직접적인 주제는 아니다.
+(참고로 Flickr는 `사용자 인증 <http://www.flickr.com/services/api/misc.userauth.html>`_ 상에 추가적인 문서를 제공하고, HTTP 요청만큼 직접적인 주제는 아니다.
 
 길이와 상관없이 안내서는 문서의 다른 부분들을 연결해야 한다 - 
 레퍼런스, 샘플, playground, 기사 - 그래서 그 개발자들은 그 자원들이 존재하는지 이해하고, 
 이후에는 스스로 그것들을 조사할 것이다.
 
 .. _Maps API Developer's Guide: http://code.google.com/apis/maps/documentation/javascript/basics.html
-.. _few paragraphs: http://www.flickr.com/services/api/misc.overview.html
-.. _user authentication: http://www.flickr.com/services/api/misc.userauth.html
 .. |mapsdevguide| image:: ./screenshot_mapsdevguide.png
 
 
@@ -443,7 +438,7 @@ JS API는 그것의 다른 부분이 사용되는 방법을 바꿀 수 있기 �
 
 예를 들어, Maps API와 PHP & MySQL을 조합하는 것에 대한 튜토리얼이  
 내가 썼던 것 중 가장 인기 있었다. 난 데이터베이스로부터 지도위에 마커들을 
-렌더링 하는 `basic article`_ 을 시작했고, (분석 및 포럼 게시물 양쪽에서)
+렌더링 하는 `기본 문서 <http://code.google.com/apis/maps/articles/phpsqlajax.html>`_ 을 시작했고, (분석 및 포럼 게시물 양쪽에서)
 그 기사를 읽은 개발자 수를 본 후, 나는 관련된 글을 쓰기 시작했고, 
 그것들을 다시 링크 걸었으며, 이후에는 연재물 형태와 비슷하게 되었다.
 
@@ -475,6 +470,5 @@ JS API는 그것의 다른 부분이 사용되는 방법을 바꿀 수 있기 �
 
 .. _Using Debugging Tools with the Maps API: http://code.google.com/apis/maps/articles/debuggingmaps.html
 .. _Debugging Wave Robots: http://code.google.com/apis/wave/articles/robotdebugging.html
-.. _basic article: http://code.google.com/apis/maps/articles/phpsqlajax.html
 .. |screencast| image:: ./screenshot_mapsscreencast.png
 
