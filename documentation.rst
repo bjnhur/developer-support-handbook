@@ -124,7 +124,7 @@ API가 오픈소스(즉, 소스 코드를 읽을 수 있는 경우)라면, 이 �
 만약 그렇지 않다면, 레퍼런스에 특화된 검색창을 제공해야 한다. 그것은 레퍼런스 
 페이지들 범위로 한정된 Google Custom Search Engine으로 구현할 수 있다.
 
-*(역자주) 국내에서는 `Daum 검색의 Site 옵션 <http://search.daum.net/search?w=dir&q=site:dna.daum.net+api>`_ 을 이용할 수도 있다.*
+(역자주) 국내에서는 `Daum 검색 옵션 <http://search.daum.net/search?w=dir&q=site:dna.daum.net+api>`_ 을 이용할 수도 있다.
 
 다운로드
 --------
@@ -320,8 +320,7 @@ Google 샘플 코드는 실제(이론적이지 않은) API를 사용하는 것�
 다양한 샘플들을 나열하는 것 분 어떤 것이 개발자들에게 이득인지 신중히 고려 하고, 
 모든 경우에 여러분의 해결 방법은 검색 가능하고 링크가 달려 있어야 한다.
 
-*(역자주) Daum에서는 오픈 API 샘플 코드를 `구글 코드 <http://code.google.com/p/daumapis/>`_ 와 
-`Github <https://github.com/daumdna/apis>`_ 에 각각 제공하고 있다.
+|more| Daum에서는 오픈 API 샘플 코드를 `구글 코드 <http://code.google.com/p/daumapis/>`_ 와 `Github <https://github.com/daumdna/apis>`_ 에 각각 제공하고 있다.
 
 .. _Maps API demo gallery: http://code.google.com/apis/maps/documentation/javascript/demogallery.html
 .. _Wave Samples Gallery: http://wave-samples-gallery.appspot.com/
