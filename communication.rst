@@ -46,8 +46,8 @@ API와 관련된 이벤트 - 직접 주최하거나 다른 사람이 자발적�
 참석률을 높이기 위해 블로그 포스트를 통해 입소문을 내주는 것이 좋다. 
 컨퍼런스 직전과 같이 많은 이벤트가 열리는 경우 일정과 참석 링크들을 
 각각 요약하여 포스팅 하기 바란다. 2008년 5월에 열리는 이벤트를 정리한 
-`행사 계획 <http://googlemapsapi.blogspot.com/2008/05/upcoming-events.html>`_ 과 시애틀에서 열리는 개발자 행사만 정리한 
-`행사 계획 <http://googlegeodevelopers.blogspot.com/2009/08/upcoming-seattle-geo-apis-hackathon.html>`_ 을 참고하기 바란다.
+`5월 행사 계획 <http://googlemapsapi.blogspot.com/2008/05/upcoming-events.html>`_ 과 시애틀에서 열리는 개발자 행사만 정리한 
+`시애틀 행사 계획 <http://googlegeodevelopers.blogspot.com/2009/08/upcoming-seattle-geo-apis-hackathon.html>`_ 을 참고하기 바란다.
 
 비싼 참가비가 아깝지 않을 만큼 규모 있고 많은 개발자가 참여해는 대형 행사
 외에  주변에서 열리는 작은 이벤트 역시 개발자의 관심을 보여주기 때문에 좋다. 
@@ -81,15 +81,15 @@ API를 색다르게 사용한 예제를 소개하는 것도 좋은 방법이다.
 활용한 방식을 설명하고 간단히 활용할 팁등을 소개하는 것도 좋은 방법이다. 
 
 LonelyPlanet이 모바일 폰에서 정적 지도 API를 어떻게 최적화했는지 
-`블로그 소개 <http://googlemapsmania.blogspot.com/2007/04/lonely-planet-innovates-using-google.html>`_
+`최적화 블로그 글  <http://googlemapsmania.blogspot.com/2007/04/lonely-planet-innovates-using-google.html>`_
 를 통해 확인할 수 있다. 또, Travellr가 사용한 복잡하긴 하지만 효과적인 고난이도의 클러스터링 기법 역시 
-`블로그 소개 <http://googlegeodevelopers.blogspot.com/2009/06/travellr-behind-scenes-of-our-region.html>`_
+`클러스터링 블로그 소개 <http://googlegeodevelopers.blogspot.com/2009/06/travellr-behind-scenes-of-our-region.html>`_
 를 통해 확인 가능하다. 물론 기술적 유용성 만큼이나 개발자/개발사에서 해당 기능을 
 공개 했는지 여부를 확인하는것도 중요하다. ( '-' 이 표시에 오타가 있는건지 잘 해석이 안되네요) 
 
 새로운 기능을 발표하며 개발자이 서로 다른 방법으로 사용하는 예를 보여주고 싶다면, 
 각각 다른 방법으로 개발&적용한 사이트를 묶어 요약된 형태로 보여주면 된다. 
-필자의 경우 스트리트뷰 API를 활용한 `블로그 소개 <http://googlemapsapi.blogspot.com/2008/04/streetview-in-wild-flourishing-species.html>`_
+필자의 경우 스트리트뷰 API를 활용한 `스트릿뷰 블로그 소개 <http://googlemapsapi.blogspot.com/2008/04/streetview-in-wild-flourishing-species.html>`_
 를 작성하기 전에, 포럼에 해당 기능을 활용한 예제를 올려주면 선물을(schwag) 주겠다고 약속했다. 
 결과적으로 새로운 프로덕트나 데모들을 찾고 관련 개발자/회사와 관계를 맺어 주는 최고의 방법이었다. 
 필자는 API를 발표하며 해당 사이트들의 절반 가량을 인용하고 있다. 
@@ -194,7 +194,7 @@ API를 제공하는 동안 기존 기능의 동작방식을 변경하거나 혹�
 (변경사항을 공표하는걸 쉽게 생각할지도 모르겠지만, 개발자로 부터 어떤 종류의 
 Q&A가 들어올지 전혀 예측할 수 없다.) 
 
-이벤트 발생 방식을 변경하며 작성한 `공지 글 <http://groups.google.com/group/google-maps-api-notify/browse_frm/thread/2da3acb76e6189a4>`_ 과, 제어 기능의 화면을 변경하며 작성한 `공지 글 <http://groups.google.com/group/google-maps-api-notify/browse_frm/thread/944510a20db1b4ab>`_
+이벤트 발생 방식을 변경하며 작성한 `이벤트 변경 공지 글 <http://groups.google.com/group/google-maps-api-notify/browse_frm/thread/2da3acb76e6189a4>`_ 과, 제어 기능의 화면을 변경하며 작성한 `제어기능 변경 공지 글 <http://groups.google.com/group/google-maps-api-notify/browse_frm/thread/944510a20db1b4ab>`_
 글이다. 보면 알겠지만 문서상에 변경사항을 보증하는 내용을 넣지 않아도 되고, 장애로 
 체크 되지 않을 변경이다. 그렇지만, 개발자이 작성한 코드가 제대로 동작할 것이라는 
 가정이 무너진다면, 그것도 쉽게 무너지게 된다면 어떨까?
@@ -372,11 +372,11 @@ HootSuite는 동료와 공동으로 기업 계정을 사용할 수 있도록 지
 개발자가 원하는 것을 얻을 수 있는 공간이 될것이라 생각한다. 
 또한 소규모 커뮤니티를 통해 영감이나 정보를 주는 포스트가 올라오고 이를 통해 개발자
 스스로가 동기 부여하게 되어 좋은 결과물들을 만들어 낼 수 있다. 
-예로, 블로그에 링크된 `이 글 <http://groups.google.com/group/google-maps-api-for-flash/browse_frm/thread/00bb53743fc9fe4c#>`_
+예로, 블로그에 링크된 `첫번째 글 <http://groups.google.com/group/google-maps-api-for-flash/browse_frm/thread/00bb53743fc9fe4c#>`_
 를 통해,
-`이 글 <http://groups.google.com/group/google-maps-js-api-v3/browse_frm/thread/92e070b430bb9c3d?hl=en#>`_
+`두번째 글 <http://groups.google.com/group/google-maps-js-api-v3/browse_frm/thread/92e070b430bb9c3d?hl=en#>`_
 에 발표된 것처럼 새로운 데모가 나오고 개발자이 자신의 데모에 추가하게 되었다. 결과적으로 
-`이 글 <http://groups.google.com/group/google-maps-api-for-flash/browse_frm/thread/1fa8460d90ae9ce7#>`_
+`세번째 글 <http://groups.google.com/group/google-maps-api-for-flash/browse_frm/thread/1fa8460d90ae9ce7#>`_
 에 나오는 것처럼 구글 외의 개발자로 부터 멋진 두개의 API사용 예제가 나오게 되었다. 
 
 

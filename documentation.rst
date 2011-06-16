@@ -320,7 +320,7 @@ Google 샘플 코드는 실제(이론적이지 않은) API를 사용하는 것�
 다양한 샘플들을 나열하는 것 분 어떤 것이 개발자들에게 이득인지 신중히 고려 하고, 
 모든 경우에 여러분의 해결 방법은 검색 가능하고 링크가 달려 있어야 한다.
 
-|more| Daum에서는 오픈 API 샘플 코드를 `구글 코드 <http://code.google.com/p/daumapis/>`_ 와 `Github <https://github.com/daumdna/apis>`_ 에 각각 제공하고 있다.
+(역자주) Daum에서는 오픈 API 샘플 코드를 `구글 코드 <http://code.google.com/p/daumapis/>`_ 와 `Github <https://github.com/daumdna/apis>`_ 에 각각 제공하고 있다.
 
 .. _Maps API demo gallery: http://code.google.com/apis/maps/documentation/javascript/demogallery.html
 .. _Wave Samples Gallery: http://wave-samples-gallery.appspot.com/
@@ -351,7 +351,7 @@ Maps API와 약 20개의 다른 API들을 포함하는 AJAX API에 대해서 우
 변경할 수 있다. 이 프로그램은 App Engine 상에서 실행되고, 소스코드는 
 `google-ajax-examples repository`_ 에 공개되어 있다. 다른 API들도 그 자체 목적을 위해서 
 변경해서 재사용할 수 있다. -- Google의 `HTML5 playground`_ 또는 Google 이외에 
-`Mapstraction playeground`_ 같은 것들을 말한다.
+`Mapstraction playground`_ 같은 것들을 말한다.
 
 |ajaxplayground|
 
@@ -360,7 +360,7 @@ HTTP기반의 Google data API들 중 일부는 그 프로토콜과 의사소통�
 쉽게 하고 일부 URL상에서의 GET 또는 POST 요청을 수행한다. 이 playground는 개발자들이 
 스스로 코드를 작성하기 전에 API의 결과를 미리 보고 미묘할 수 있는 그들 자체 응용프로그램 
 내에서의 OAuth 흐름을 디버깅할 수도 있게 도와준다. 
-이 프로그램은 `gdata-sampes repository`_ 에 소스가 공개되어 있고, 다른 OAuth 기반 API 
+이 프로그램은 `gdata-samlpes repository`_ 에 소스가 공개되어 있고, 다른 OAuth 기반 API 
 작품에서 재사용될 수도 있을 것이다.
 
 |oauthplayground|
