@@ -47,7 +47,7 @@ API와 관련된 이벤트 - 직접 주최하거나 다른 사람이 자발적�
 컨퍼런스 직전과 같이 많은 이벤트가 열리는 경우 일정과 참석 링크들을 
 각각 요약하여 포스팅 하기 바란다. 2008년 5월에 열리는 이벤트를 정리한 
 `행사 계획 <http://googlemapsapi.blogspot.com/2008/05/upcoming-events.html>`_ 과 시애틀에서 열리는 개발자 행사만 정리한 
-`행사 계획 http://googlegeodevelopers.blogspot.com/2009/08/upcoming-seattle-geo-apis-hackathon.html`_ 을 참고하기 바란다.
+`행사 계획 <http://googlegeodevelopers.blogspot.com/2009/08/upcoming-seattle-geo-apis-hackathon.html>`_ 을 참고하기 바란다.
 
 비싼 참가비가 아깝지 않을 만큼 규모 있고 많은 개발자가 참여해는 대형 행사
 외에  주변에서 열리는 작은 이벤트 역시 개발자의 관심을 보여주기 때문에 좋다. 
@@ -55,9 +55,9 @@ API와 관련된 이벤트 - 직접 주최하거나 다른 사람이 자발적�
 집중하는 것처럼 보이겠지만 전혀 사실과 다르다. 아래 리스트업 된 최근에 개최된 
 국제적 규모의 이벤트를 열고 있다.
 
-(역자주) 한국에서는 Daum에서 매년 3~4회씩 총 10차례의 외부 개발자 행사인 
+*(역자주) 한국에서는 Daum에서 매년 3~4회씩 총 10차례의 외부 개발자 행사인 
 `Daum DevDay <http://dna.daum.net/devday>`_ 를 개최해 왔으며, 관련 업계와 
-연합으로 `대한민국 매쉬업 경진대회 <http://mashupkorea.org>`_ 를 개최하고 있다.
+연합으로 `대한민국 매쉬업 경진대회 <http://mashupkorea.org>`_ 를 개최하고 있다.*
 
 행사 요약
 =========
@@ -393,8 +393,7 @@ HootSuite는 동료와 공동으로 기업 계정을 사용할 수 있도록 지
 챙겨 보면 최신 소식을 쉽게 알 수 있는 장점도 있다. 
 
 뉴스레터는 가급적 읽기 쉬운 형태로 한달에 한번 정도 발행하는게 일반적이다. 
-Amazon이 한달에 한번 발행하는 `AWS 개발자 뉴스레터 <http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=42>`_,
-가 좋은 예이다.  
+Amazon이 한달에 한번 발행하는 `AWS 개발자 뉴스레터 <http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=42>`_ 가 좋은 예이다.  
 
 AWS 개발자 뉴스레터는 주요뉴스가 단락별로 정리되어 있고, 개발자이 사용할 수 있는 기사나 코드, 
 주요 AWS 케이스 스터디, 새로운 이벤트 정보들로 구성되어 있어 유용하다. 
