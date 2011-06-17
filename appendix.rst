@@ -76,4 +76,4 @@
  * **Yahoo! Developer Network** `http://developers.yahoo.com <http://developers.yahoo.com>`_
  * **eBay Developers Program** `http://developer.ebay.com/ <http://developer.ebay.com/>`_
 
-본 자료는 앞으로 계속 업데이트할 예정이다. 추가되는 사항이 있으시면 channy@gmail.com으로 연락해 주시기 바란다.
+본 자료는 앞으로 계속 업데이트할 예정이다. 추가 정보가 있는 경우 `Google Code Issue Tracker <http://code.google.com/p/developer-support-handbook/issues/list>`_ 에 channy@gmail.com를 지정하여 올려 주기 바란다.
